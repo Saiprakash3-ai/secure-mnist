@@ -1,0 +1,15 @@
+tag,accuracy,loss,n,inference_ms_per_sample
+adv_trained_adv_fgsm,0.9841,0.0655,10000,0.2556
+adv_trained_adv_pgd,0.9827,0.0676,10000,0.3268
+adv_trained,0.9772,0.0728,10000,0.5129
+baseline_adv_fgsm,0.5088,2.0212,10000,0.2682
+baseline_adv_pgd,0.0175,10.4539,10000,0.2589
+baseline_backdoor_test,0.9865,0.0478,10000,0.2479
+baseline,0.9902,0.0311,10000,0.7664
+poisoned_backdoor_backdoor_test,0.098,44.5985,10000,0.2483
+poisoned_backdoor,0.9911,0.0296,10000,0.5038
+poisoned_label_flip_adv_fgsm,0.5241,2.5921,10000,0.2555
+poisoned_label_flip,0.8773,2.5739,10000,0.6433
+squeezed_adv_fgsm,0.6085,1.4563,10000,0.3786
+squeezed_adv_pgd,0.1152,5.9764,10000,0.383
+squeezed_clean,0.9852,0.0492,10000,0.5659

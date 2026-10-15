@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large / regenerable artifacts (datasets & trained weights)
+data/
+models/*.pt
+
+# OS / editor
+.vscode/
+.idea/
